@@ -29,16 +29,17 @@ module.exports = {
     'prefer-const': 'error',
     'prefer-template': 'error',
     'template-curly-spacing': ['error', 'never'],
-    'comma-dangle':['error', {
-      'objects': 'always-multiline',
-      'arrays': 'always-multiline',
-      'functions': 'always-multiline',
-      'imports': 'always-multiline',
-      'exports': 'always-multiline',
-    }],
+    'comma-dangle':[
+      'error', {
+        'objects': 'always-multiline',
+        'arrays': 'always-multiline',
+        'functions': 'always-multiline',
+        'imports': 'always-multiline',
+        'exports': 'always-multiline',
+      }
+    ],
     'prefer-arrow/prefer-arrow-functions': [
-      'error',
-      {
+      'error',{
         'disallowPrototype': true,
         'singleReturnOnly': true,
         'classPropertiesAllowed': false,
