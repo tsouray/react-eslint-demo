@@ -25,8 +25,7 @@ module.exports = {
     'quotes': ['error','single'],
     'semi': ['error','always'],
     'no-var': 'error',
-    'react/react-in-jsx-scope': 'off',       // Line 1 : import React, { useState } from 'react';
-    // 'react/jsx-closing-bracket-location': 'error',
+    'react/react-in-jsx-scope': 'off',       
     'prefer-const': 'error',
     'prefer-template': 'error',
     'template-curly-spacing': ['error', 'never'],
