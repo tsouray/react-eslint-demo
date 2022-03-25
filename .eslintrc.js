@@ -30,7 +30,10 @@ module.exports = {
     'prefer-const': 'error',
     'prefer-template': 'error',
     'template-curly-spacing': ['error', 'never'],
-    'import/newline-after-import': ['error',{'count': 2,},],
+    'import/newline-after-import': [
+      'error',{
+        'count': 2,
+      }],
     'comma-dangle': [
       'error', {
         'objects': 'always-multiline',
