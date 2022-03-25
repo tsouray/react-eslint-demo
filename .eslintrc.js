@@ -18,6 +18,7 @@ module.exports = {
   'plugins': [
     'react',
     'prefer-arrow',
+    'import',
   ],
   'rules': {
     'indent': ['error',2],
@@ -25,21 +26,26 @@ module.exports = {
     'quotes': ['error','single'],
     'semi': ['error','always'],
     'no-var': 'error',
-    'react/react-in-jsx-scope': 'off',       
+    'react/react-in-jsx-scope': 'off',
     'prefer-const': 'error',
     'prefer-template': 'error',
     'template-curly-spacing': ['error', 'never'],
-    'comma-dangle':[
+    'import/newline-after-import': [
+      'error',
+      {
+        'count': 2,
+      },
+    ],
+    'comma-dangle': [
       'error', {
         'objects': 'always-multiline',
         'arrays': 'always-multiline',
         'functions': 'always-multiline',
         'imports': 'always-multiline',
         'exports': 'always-multiline',
-      }
-    ],
+      }],
     'prefer-arrow/prefer-arrow-functions': [
-      'error',{
+      'error', {
         'disallowPrototype': true,
         'singleReturnOnly': true,
         'classPropertiesAllowed': false,
